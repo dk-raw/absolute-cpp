@@ -24,7 +24,14 @@ int absolute4(int a) {
 
 int main()
 {
-	auto result = absolute4(-65);
+	cout << abs(-65) << endl;
+	auto result = absolute(-65);
 	cout << result << endl;
-	//for (int i = 0; i < result.size(); i++) cout << result[i];  
+	auto result2 = absolute2(-65);
+	for (auto item : result2) cout << item;
+	cout << endl;
+	auto result3 = absolute3(-65);
+	cout << result3 << endl;
+	auto result4 = absolute4(-65);
+	cout << result4 << endl;
 }
