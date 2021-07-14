@@ -77,3 +77,4 @@ int main()
 	auto result6 = absolute6(-65);
 	cout << result6 << endl;
 }
+//A++
